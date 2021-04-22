@@ -1,0 +1,117 @@
+/* The Content section styling */
+
+.content-section {
+  display: grid;
+  grid-gap: 10px;
+  width: 45%;
+  margin: auto;
+  /* overflow: scroll; */
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h4 {
+  text-align: left;
+  background: rgb(173, 164, 164);
+  padding: 5px;
+}
+/* The balance styling */
+.balance-div {
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px auto 0;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 5px #000;
+}
+
+/* Select Currency section */
+.select {
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+}
+.select h4 {
+  color: rgb(0, 153, 255);
+  background: lightgray;
+}
+/* Token section */
+.token {
+  margin-top: -20px;
+}
+
+.token h3 {
+  display: inline;
+  border: 1px solid #000;
+  padding: 3px 5px;
+  margin-right: 10px;
+}
+
+input {
+  padding: 12px;
+  width: 73%;
+}
+
+/* Button section */
+
+.btn-div {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 150px;
+}
+
+button {
+  color: #fff;
+  background: rgb(0, 153, 255);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+
+/* Recent ACTIVITY SECTION */
+.recent {
+  margin-top: -10px;
+}
+.recent h4 {
+  color: #fff;
+}
+
+/* Table */
+table {
+  width: 100%;
+}
+
+/* Content Media Queries */
+@media (max-width: 900px) {
+  .content-section {
+    width: 100vw;
+  }
+
+  .balance-div {
+    width: 80vw;
+  }
+
+  .select,
+  .recent {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .select input {
+    width: 60%;
+  }
+
+  .select .btn-div {
+    width: 80vw;
+    margin: auto 10px;
+  }
+}
+
+/* @media (max-width: 580px) {
+  .select {
+    width: 80%;
+  }
+
+} */

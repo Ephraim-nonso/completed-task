@@ -1,0 +1,39 @@
+/* Footer styling */
+.footer-section {
+  width: 100%;
+  border-top: 1px solid rgb(219, 84, 84);
+  margin: auto;
+  height: 70px;
+  /* position: fixed; */
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 45%;
+  padding-top: 20px;
+}
+
+p {
+  color: rgb(219, 84, 84);
+}
+
+/* Coloring for the whole fonts awesome icons */
+
+.fas {
+  color: rgb(219, 84, 84);
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.home p {
+  font-weight: bolder;
+}
+
+@media (max-width: 900px) {
+  footer {
+    width: 100vw;
+    margin: auto;
+  }
+}
